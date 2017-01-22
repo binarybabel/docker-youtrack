@@ -1,8 +1,8 @@
-# YouTrack [latest] – Docker Image
+# YouTrack [v7.0.29566] – Docker Image
 
 **[Issue Tracking and Project Management Tool](https://www.jetbrains.com/youtrack/)**
 
-[![Build Status](https://travis-ci.org/binarybabel/docker-youtrack.svg?branch=master)](https://travis-ci.org/binarybabel/docker-youtrack) [![GitHub release](https://img.shields.io/github/tag/binarybabel/docker-youtrack.svg)](https://hub.docker.com/r/binarybabel/youtrack/tags/)
+[![Latestver](https://lv.binarybabel.org/catalog-api/youtrack/latest.svg?v=7.0.29566)](https://github.com/binarybabel/docker-youtrack/releases)
 
 **_Docker project maintained by BinaryBabel — Not an official JetBrains product release._**
 
