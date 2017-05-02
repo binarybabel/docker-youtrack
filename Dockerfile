@@ -13,7 +13,7 @@ VOLUME ${DATA_DIR}
 EXPOSE 8080
 
 #COPY youtrack.jar ${APP_DIR}/youtrack.jar
-ENV YOUTRACK_VERSION=
+ENV YOUTRACK_VERSION=2017.2.32799
 RUN YOUTRACK_DOWNLOAD="https://download.jetbrains.com/charisma/youtrack-${YOUTRACK_VERSION:-$(curl -s https://lv.binarybabel.org/catalog-api/youtrack/latest.txt?p=version)}.jar" \
     && echo Downloading ${YOUTRACK_DOWNLOAD} \
     && curl -fsSLo youtrack.jar "${YOUTRACK_DOWNLOAD}"
